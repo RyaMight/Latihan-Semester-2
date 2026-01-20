@@ -53,11 +53,11 @@ namespace HargaBaju
                if (ukuran == "S")
                     harga = 200000;
                 else if (ukuran == "M")
-                    harga = 49000;
+                    harga = 49500;
                 else if (ukuran == "L")
-                    harga = 54000;
+                    harga = 56000;
                 else if (ukuran == "XL")
-                    harga = 64000;
+                    harga = 62500;
                 else
                 {
                     Console.WriteLine("Ukuran tidak tersedia.");
