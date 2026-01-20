@@ -12,3 +12,4 @@ X:\RPL\Percabangan\Percabangan\obj\Debug\net10.0\refint\Percabangan.dll
 X:\RPL\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.pdb
 X:\RPL\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.genruntimeconfig.cache
 X:\RPL\Percabangan\Percabangan\obj\Debug\net10.0\ref\Percabangan.dll
+X:\RPL\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.sourcelink.json

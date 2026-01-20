@@ -8,7 +8,7 @@ namespace HargaBaju
         {
             Console.WriteLine("=== Selamat Datang di Toko Baju Rayasa ===");
 
-            Console.Write("Masukkan merk baju (H&M / Uniqlo): ");
+            Console.Write("Masukkan merk baju (H&M / Uniqlo / Raya): ");
             string merk = Console.ReadLine().ToLower();
 
             Console.Write("Masukkan ukuran baju (S / M / L / XL): ");
@@ -36,6 +36,22 @@ namespace HargaBaju
             {
                 if (ukuran == "S")
                     harga = 44000;
+                else if (ukuran == "M")
+                    harga = 49000;
+                else if (ukuran == "L")
+                    harga = 54000;
+                else if (ukuran == "XL")
+                    harga = 64000;
+                else
+                {
+                    Console.WriteLine("Ukuran tidak tersedia.");
+                    return;
+                }
+            }
+            else if (merk == "raya")
+            {
+               if (ukuran == "S")
+                    harga = 200000;
                 else if (ukuran == "M")
                     harga = 49000;
                 else if (ukuran == "L")
