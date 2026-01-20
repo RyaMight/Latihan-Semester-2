@@ -1,0 +1,14 @@
+X:\RPL\Percabangan\Percabangan\bin\Debug\net10.0\Percabangan.exe
+X:\RPL\Percabangan\Percabangan\bin\Debug\net10.0\Percabangan.deps.json
+X:\RPL\Percabangan\Percabangan\bin\Debug\net10.0\Percabangan.runtimeconfig.json
+X:\RPL\Percabangan\Percabangan\bin\Debug\net10.0\Percabangan.dll
+X:\RPL\Percabangan\Percabangan\bin\Debug\net10.0\Percabangan.pdb
+X:\RPL\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.GeneratedMSBuildEditorConfig.editorconfig
+X:\RPL\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.AssemblyInfoInputs.cache
+X:\RPL\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.AssemblyInfo.cs
+X:\RPL\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.csproj.CoreCompileInputs.cache
+X:\RPL\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.dll
+X:\RPL\Percabangan\Percabangan\obj\Debug\net10.0\refint\Percabangan.dll
+X:\RPL\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.pdb
+X:\RPL\Percabangan\Percabangan\obj\Debug\net10.0\Percabangan.genruntimeconfig.cache
+X:\RPL\Percabangan\Percabangan\obj\Debug\net10.0\ref\Percabangan.dll
