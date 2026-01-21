@@ -76,7 +76,22 @@ namespace HargaBaju
             Console.WriteLine("Harga  : Rp. " + harga);
             Console.WriteLine("--------------------------");
 
-            Console.ReadLine();
+            Console.Write("Silahkan pilih metode pembayaran (Tunai/Qris) : ");
+            string pembayaran = Console.ReadLine().ToLower();
+
+            if (pembayaran == "tunai")
+            {
+                Console.WriteLine("Pembayaran dilakukan dengan tunai.");
+            }
+            else if (pembayaran == "qris")
+            {
+                Console.WriteLine("Pembayaran dilakukan dengan QRIS.");
+                Console.WriteLine("Anggap saja ini qris wokwowk");
+            }
+            else
+            {
+                Console.WriteLine("Metode pembayaran tidak tersedia.");
+            }
         }
     }
 }
