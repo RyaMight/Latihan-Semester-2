@@ -29,7 +29,6 @@ namespace HargaBaju
                 else
                 {
                     Console.WriteLine("Ukuran tidak tersedia.");
-                    return;
                 }
             }
             else if (merk == "uniqlo")
@@ -45,7 +44,6 @@ namespace HargaBaju
                 else
                 {
                     Console.WriteLine("Ukuran tidak tersedia.");
-                    return;
                 }
             }
             else if (merk == "raya")
@@ -61,19 +59,17 @@ namespace HargaBaju
                 else
                 {
                     Console.WriteLine("Ukuran tidak tersedia.");
-                    return;
                 }
             }
             else
             {
                 Console.WriteLine("Merk tidak tersedia.");
-                return;
             }
 
             Console.WriteLine("--------------------------");
-            Console.WriteLine("Merk   : " + merk.ToUpper());
-            Console.WriteLine("Ukuran : " + ukuran);
-            Console.WriteLine("Harga  : Rp. " + harga);
+            Console.WriteLine("Merk       : " + merk.ToUpper());
+            Console.WriteLine("Ukuran     : " + ukuran);
+            Console.WriteLine("Harga      : Rp. " + harga);
             Console.WriteLine("--------------------------");
 
             Console.Write("Silahkan pilih metode pembayaran (Tunai/Qris) : ");
