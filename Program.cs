@@ -82,6 +82,7 @@ namespace HargaBaju
             if (pembayaran == "tunai")
             {
                 Console.WriteLine("Pembayaran dilakukan dengan tunai.");
+                Console.WriteLine("Silahkan Tunjukan code ini pada kasir : Anggap ini code");
             }
             else if (pembayaran == "qris")
             {
