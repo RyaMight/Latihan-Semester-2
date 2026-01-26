@@ -86,7 +86,7 @@ namespace HargaBaju
                 Console.WriteLine("Pembayaran dilakukan dengan QRIS.");
                 Console.WriteLine("Anggap saja ini qris wokwowk");
             }
-            else
+            else 
             {
                 Console.WriteLine("Metode pembayaran tidak tersedia.");
             }
@@ -94,7 +94,7 @@ namespace HargaBaju
 
             Console.WriteLine("=== Selamat Datang di Toko Baju Rayasa ===");
 
-            Console.Write("Masukkan merk baju (H&M / Uniqlo / Raya): ");
+            Console.Write("Masukkan merk baju (H&M / Uniqlo / R): ");
             string merk = Console.ReadLine().ToLower();
 
             Console.Write("Masukkan ukuran baju (S / M / L / XL): ");
@@ -132,8 +132,7 @@ namespace HargaBaju
                             break;
                     }
                     break;
-
-                case "raya":
+                case "r":
                     switch (ukuran)
                     {
                         case "S": harga = 200000; break;
