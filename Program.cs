@@ -91,7 +91,7 @@ namespace HargaBaju
                 Console.WriteLine("Metode pembayaran tidak tersedia.");
             }
             */
-
+/*
             Console.WriteLine("=== Selamat Datang di Toko Baju Rayasa ===");
 
             Console.Write("Masukkan merk baju (H&M / Uniqlo / R): ");
@@ -178,7 +178,37 @@ namespace HargaBaju
                 default:
                     Console.WriteLine("Metode pembayaran tidak tersedia.");
                     break;
-            }
+                    */
+
+
+
+
+
+
+Console.WriteLine("Login Sederhana");
+
+        Console.Write("Silakan masukkan username: ");
+        string username = Console.ReadLine().Trim();
+
+        Console.Write("Silakan masukkan password: ");
+        string password = Console.ReadLine().Trim();
+
+        Console.WriteLine("");
+
+        string correctUsername = "Raya";
+        string correctPassword = "Rayasa123@";
+
+        if (username == "Raya" && password == correctPassword)
+        {
+            Console.WriteLine("Selamat Datang Master " + username);
         }
-    }
-}
+        else
+        {
+            Console.WriteLine("Username atau password salah!");
+        }
+        Console.WriteLine("\nTekan Untuk Keluar");
+        Console.ReadKey();
+
+         }
+     }
+ }
