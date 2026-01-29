@@ -182,9 +182,6 @@ namespace HargaBaju
 
 
 
-
-
-
 Console.WriteLine("Login Sederhana");
 
         Console.Write("Silakan masukkan username: ");
@@ -193,14 +190,12 @@ Console.WriteLine("Login Sederhana");
         Console.Write("Silakan masukkan password: ");
         string password = Console.ReadLine().Trim();
 
-        Console.WriteLine("");
-
         string correctUsername = "Raya";
         string correctPassword = "Rayasa123@";
 
         if (username == "Raya" && password == correctPassword)
         {
-            Console.WriteLine("Selamat Datang Master " + username);
+            Console.WriteLine("\nSelamat Datang Master " + username);
         }
         else
         {
