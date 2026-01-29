@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Percabangan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+050e07c8ca9f65bff19b277657470b7f800c74e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e99fff2d8d7085a6b3fc48ea3434cf30223f081")]
 [assembly: System.Reflection.AssemblyProductAttribute("Percabangan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Percabangan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

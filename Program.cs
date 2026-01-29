@@ -181,7 +181,7 @@ namespace HargaBaju
                     */
 
 
-
+/*
 Console.WriteLine("Login Sederhana");
 
         Console.Write("Silakan masukkan username: ");
@@ -203,7 +203,27 @@ Console.WriteLine("Login Sederhana");
         }
         Console.WriteLine("\nTekan Untuk Keluar");
         Console.ReadKey();
+*/
 
+/* Perulangan While */
+/*
+int i = 0;
+while (i < 5)
+{
+    Console.WriteLine("Selamat Pagi Indonesia");
+    i++;
+}
+*/
+
+int i = 1;
+
+while (i <= 10)
+{
+    Console.Write(i + " ");
+    i++;
+}
+
+        
          }
      }
  }
