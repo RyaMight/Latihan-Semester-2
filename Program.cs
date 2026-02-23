@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 namespace HargaBaju
 {
@@ -205,25 +206,77 @@ Console.WriteLine("Login Sederhana");
         Console.ReadKey();
 */
 
-/* Perulangan While */
+/* Perulangan */
 /*
-int i = 0;
-while (i < 5)
+Console.Write("Silahkan Masukkan Kata: ");
+String tulisan = Console.ReadLine();
+
+Console.Write("Masukkan Jumlah Perulangan: ");
+int jumlah = int.Parse(Console.ReadLine());
+
+
+
+int i = 1;
+while (i <= jumlah)
 {
-    Console.WriteLine("Selamat Pagi Indonesia");
+    Console.WriteLine(tulisan);
     i++;
 }
 */
+/*
+int i = 9;
 
-int i = 1;
-
-while (i <= 10)
+while (i >= 1)
 {
     Console.Write(i + " ");
+    i--;
+}
+*/
+
+
+int pilihan;
+
+        do
+        {
+            Console.WriteLine("Silahkan pilih apa yang ingin kamu lakukan dibawah ini : ");
+            Console.WriteLine("1. Mencetak kalimat ");
+            Console.WriteLine("2. Keluar Program");
+            Console.Write("Ketik angka menu yang dipilih : ");
+
+            pilihan = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+
+            if (pilihan == 1)
+            {
+                Console.Write("Silahkan Masukkan Kata: ");
+                String tulisan = Console.ReadLine();
+
+                 Console.Write("Masukkan Jumlah Perulangan: ");
+                 int jumlah = int.Parse(Console.ReadLine());
+
+                         int i = 1;
+                while (i <= jumlah)
+
+
+
+
+{
+    Console.WriteLine(tulisan);
     i++;
 }
+            }
+            else if (pilihan == 2)
+            {
+                Console.WriteLine("Program selesai.");
+            }
+            else
+            {
+                Console.WriteLine("Angka yang anda masukan salah");
+            }
 
-        
-         }
+            Console.WriteLine();
+        } while (pilihan != 2);
+       
+        } 
      }
  }
