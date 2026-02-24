@@ -278,13 +278,33 @@ int pilihan;
         } while (pilihan != 2);
 
 */
-
+/*
         for (int i = 1 ; i <= 15; i++)
             {
                 Console.WriteLine(i);
             } 
+*/
+       /*
+       for (int i = 10 ; i <= 20 ; i++)
+            {
+                double akar = Math.Sqrt(i);
+                Console.WriteLine("akar dari " + i + " adalah " + akar.ToString("F2"));
 
-       
+            }
+            */
+
+        for (int i = 1 ; i <= 20 ; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(i + " adalah bilangan genap");
+                }
+                else
+                {
+                    Console.WriteLine(i + " adalah bilangan ganjil");
+                }
+
         } 
      }
  }
+}
