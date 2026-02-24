@@ -232,7 +232,7 @@ while (i >= 1)
     i--;
 }
 */
-
+/*
 
 int pilihan;
 
@@ -276,6 +276,14 @@ int pilihan;
 
             Console.WriteLine();
         } while (pilihan != 2);
+
+*/
+
+        for (int i = 1 ; i <= 15; i++)
+            {
+                Console.WriteLine(i);
+            } 
+
        
         } 
      }
