@@ -257,9 +257,6 @@ int pilihan;
                          int i = 1;
                 while (i <= jumlah)
 
-
-
-
 {
     Console.WriteLine(tulisan);
     i++;
@@ -291,8 +288,8 @@ int pilihan;
                 Console.WriteLine("akar dari " + i + " adalah " + akar.ToString("F2"));
 
             }
-            */
-
+*/
+/*
         for (int i = 1 ; i <= 20 ; i++)
             {
                 if (i % 2 == 0)
@@ -303,8 +300,44 @@ int pilihan;
                 {
                     Console.WriteLine(i + " adalah bilangan ganjil");
                 }
+                }
 
-        } 
-     }
- }
+             } 
+*/
+/*
+    int jumlah = 0;
+
+             for (int i = 0; i <= 10; i++)
+            {
+                jumlah += i;
+                Console.WriteLine(i + " " + jumlah);
+            }
+*/
+/*
+             Console.Write("Masukkan Dimensi Kubus :");
+             int dimensi = int.Parse(Console.ReadLine());
+
+             for(int i = 1; i <= dimensi; i++)
+            {
+                for (int j = 1; j <= dimensi; j++)
+                {
+                    Console.Write("Lu Siape Bujang? ");
+                }
+                Console.WriteLine("");
+            }
+*/  
+            Console.Write("Jumlah Tangga * Yang Dimasukkan : ");
+            int tangga = int.Parse(Console.ReadLine());
+
+            for(int i = tangga; i >= 1; i--)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine("");
+            }
+
+         }
+    }
 }
