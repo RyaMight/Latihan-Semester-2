@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Runtime.InteropServices;
 
 namespace HargaBaju
@@ -257,10 +258,11 @@ int pilihan;
                          int i = 1;
                 while (i <= jumlah)
 
-{
-    Console.WriteLine(tulisan);
-    i++;
-}
+            {
+                Console.WriteLine(tulisan);
+                i++;
+            }
+
             }
             else if (pilihan == 2)
             {
@@ -290,20 +292,22 @@ int pilihan;
             }
 */
 /*
-        for (int i = 1 ; i <= 20 ; i++)
+        Console.Write("Masukkan angka awal : ");
+        int angkaAwal = int.Parse(Console.ReadLine());
+
+        Console.Write("Masukkan angka akhir : ");
+        int angkaAkhir = int.Parse(Console.ReadLine());
+
+
+        for (int i = angkaAwal ; i <= angkaAkhir ; i++)
             {
                 if (i % 2 == 0)
                 {
                     Console.WriteLine(i + " adalah bilangan genap");
                 }
-                else
-                {
-                    Console.WriteLine(i + " adalah bilangan ganjil");
-                }
-                }
-
-             } 
+            }
 */
+
 /*
     int jumlah = 0;
 
@@ -326,6 +330,7 @@ int pilihan;
                 Console.WriteLine("");
             }
 */  
+/*
             Console.Write("Jumlah Tangga * Yang Dimasukkan : ");
             int tangga = int.Parse(Console.ReadLine());
 
@@ -337,6 +342,60 @@ int pilihan;
                 }
                 Console.WriteLine("");
             }
+*/
+/*
+            Console.Write("Masukkan Angka Maksimal : ");
+            int jumlah = int.Parse(Console.ReadLine());
+
+            Console.Write("Masukkan Angka Awal : ");
+            int Perulangan = int.Parse(Console.ReadLine());
+
+            int b = Perulangan;
+            do
+            {
+                Console.WriteLine("b ke-" + b);
+                b++;
+            }
+            while (b <= jumlah);
+*/
+
+
+
+
+        string nama;
+        int umur;
+        string alamat;
+        char pilihan;
+
+        do
+        {
+            Console.WriteLine("=== INPUT DATA PASIEN ===");
+
+            Console.Write("Masukkan Nama Pasien : ");
+            nama = Console.ReadLine();
+
+            Console.Write("Masukkan Umur Pasien : ");
+            umur = int.Parse(Console.ReadLine());
+
+            Console.Write("Masukkan Alamat Pasien : ");
+            alamat = Console.ReadLine();
+
+            Console.WriteLine("\n=== DATA PASIEN ===");
+            Console.WriteLine("Nama    : " + nama);
+            Console.WriteLine("Umur    : " + umur + " Tahun");
+            Console.WriteLine("Alamat  : " + alamat);
+
+            Console.Write("\nInput data lagi? (y/n) : ");
+            pilihan = char.Parse(Console.ReadLine());
+
+            Console.WriteLine();
+
+        } while (pilihan == 'y' || pilihan == 'Y');
+
+        Console.WriteLine("Program selesai Twin");
+
+
+
 
          }
     }
