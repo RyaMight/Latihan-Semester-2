@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data;
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 namespace HargaBaju
@@ -359,9 +360,7 @@ int pilihan;
             while (b <= jumlah);
 */
 
-
-
-
+/*
         string nama;
         int umur;
         string alamat;
@@ -393,10 +392,26 @@ int pilihan;
         } while (pilihan == 'y' || pilihan == 'Y');
 
         Console.WriteLine("Program selesai Twin");
+*/
 
 
+        Console.Write("Berapa banyak data yang akan dimasukkan? ");
+        int jumlahData = int.Parse(Console.ReadLine());
 
-
-         }
+        int total = 0;
+        string semuaData = " ";
+        for (int i = 0; i < jumlahData; i ++)
+    {
+        Console.Write("Masukkan angka ke " + (i + 1) + ": ");
+        int angka = int.Parse(Console.ReadLine());
+        total += angka;
+        semuaData += angka + ", ";
     }
+
+    Console.WriteLine("\nData yang dimasukkan: " + semuaData);
+    Console.WriteLine("\nTotal jumlah data: " + total);
+
+
+}
+}
 }
